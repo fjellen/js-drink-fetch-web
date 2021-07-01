@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header input[type="text"] {
+    width: 30vw;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.search-results {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.search-results {
+
+}
+
+.search-results article img {
+    max-width: 100%;
+}
